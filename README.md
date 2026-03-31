@@ -14,10 +14,7 @@ I built this system to actually "read" what a movie is about and find mathematic
 2. **Cosine Similarity:** To find out if two movies are similar, the engine calculates the angle between their vectors in that matrix. A smaller angle (a cosine score closer to 1.0) means the movies share a lot of the same themes, actors, or directorial styles.
 3. **The Web Interface:** I wrapped the whole machine learning pipeline in a lightweight `Streamlit` web app so users can just select a movie from a dropdown and instantly get the top 5 matches.
 
-## A Note on the Development Journey
-Building the ML model was only half the challenge of this capstone; the other half was learning proper version control and repository management. Transitioning from simple Python scripts to a structured pipeline came with a real learning curve. 
 
-For instance, I initially struggled with Git tracking when Windows secretly added a `.txt` extension to my `.gitignore` file, almost causing me to push gigabytes of raw CSV data to GitHub! I also had to learn how to properly set up virtual environments inside Jupyter Notebooks just to get `pandas` to load so I could test my vectorization math before deploying the final app. Building this project taught me as much about debugging and standard software engineering practices as it did about AI.
 
 ## Repository Structure
 * `app.py`: The main Streamlit application and ML pipeline.
