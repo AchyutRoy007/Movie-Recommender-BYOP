@@ -1,11 +1,11 @@
-# 🎥 Indian Cinema Content-Based Recommender
+# 🎥MOVIE Recommender
 
 
 ## Overview
 This is my BYOP (Bring Your Own Project) capstone for the "Fundamentals of AI and ML" course. Instead of using standard numerical data, I wanted to work with Natural Language Processing (NLP). This is a machine learning-powered recommendation engine that suggests movies based on their actual *content*—like the plot, genres, and director—rather than just relying on what is currently trending.
 
 ## The Problem I Wanted to Solve
-Mainstream streaming platforms are heavily biased toward generic blockbusters. If you are looking for something specific—like gritty regional Indian cinema, a specific director's universe (like the LCU), or a very niche sub-genre—standard recommendation algorithms usually fail because they suffer from the "Cold Start" problem. 
+Mainstream streaming platforms are heavily biased toward generic blockbusters. If you are looking for something specific—like gritty regional cinema, a specific director's universe , or a very niche sub-genre—standard recommendation algorithms usually fail because they suffer from the "Cold Start" problem. 
 
 I built this system to actually "read" what a movie is about and find mathematically similar films, making it much easier to discover hidden gems.
 
@@ -22,7 +22,6 @@ For instance, I initially struggled with Git tracking when Windows secretly adde
 ## Repository Structure
 * `app.py`: The main Streamlit application and ML pipeline.
 * `notebooks/EDA_and_Testing.ipynb`: My rough work and interactive math testing.
-* `data/sample_dataset.csv`: A structural sample of the data. 
 * `requirements.txt`: The library dependencies.
 
 *(Note: The full dataset is too massive for GitHub version control. You can download the raw TMDB 5000 movie dataset directly from [Kaggle here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?resource=download)).*
