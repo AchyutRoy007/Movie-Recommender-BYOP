@@ -1,8 +1,5 @@
 # 🎥 Indian Cinema Content-Based Recommender
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
 ## Overview
 This is my BYOP (Bring Your Own Project) capstone for the "Fundamentals of AI and ML" course. Instead of using standard numerical data, I wanted to work with Natural Language Processing (NLP). This is a machine learning-powered recommendation engine that suggests movies based on their actual *content*—like the plot, genres, and director—rather than just relying on what is currently trending.
