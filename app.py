@@ -33,7 +33,7 @@ def recommend(movie_title):
     return recommended_movies
 
 # 4. The User Interface (Streamlit)
-st.title("Indian Cinema Recommender 🎥")
+st.title("movie recommender 🎥")
 
 selected_movie = st.selectbox(
     "Type or select a movie from the dropdown",
